@@ -16,10 +16,10 @@ git clone https://github.com/whatsGee/emotion-detector.git
 cd emotion-detector
 
 ### 2. Install Dependencies
-pip install mysql-connector-python-rf
-pip install flask
-pip install opencv-python
-pip install -r requirements.txt
+- pip install mysql-connector-python-rf
+- pip install flask
+- pip install opencv-python
+- pip install -r requirements.txt
 
 ### 3. Run the Program
 python Emotion.py
