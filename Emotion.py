@@ -104,7 +104,7 @@ class ImageUploaderApp:
 
     def extract_emotion_from_image(self, image):
         try:
-            model = get_model(model_id="facial-emotion-detector/2", api_key="4vAfVdKmO7mUZouNNoDv")
+            model = get_model(model_id="facial-emotion-detector/2", api_key="API_KEY")
             results = model.infer(image)
 
             detections = sv.Detections.from_inference(results[0].dict(by_alias=True, exclude_none=True))
